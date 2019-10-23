@@ -47,8 +47,8 @@ class SetCommand extends SubCommand{
             }
         }
 
-        if($total !== 100)
-            return $sender->sendMessage(TextFormat::RED . "The percents on your mine must add to 100, but they add to $total." . TextFormat::RESET);
+     //   if($total !== 100)
+   //         return $sender->sendMessage(TextFormat::RED . "The percents on your mine must add to 100, but they add to $total." . TextFormat::RESET);
 
         $this->getApi()->getMineManager()[$name]->setData($save);
         $sender->sendMessage(TextFormat::GREEN . "Mine has been setted. Use /mine reset $name to see your changes.");
