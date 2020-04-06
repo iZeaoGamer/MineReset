@@ -4,9 +4,9 @@ namespace falkirks\minereset\command;
 
 
 use falkirks\minereset\task\AboutPullTask;
-use Frago9876543210\EasyForms\elements\custom\Dropdown;
-use Frago9876543210\EasyForms\elements\custom\Input;
-use Frago9876543210\EasyForms\elements\custom\Label;
+use Frago9876543210\EasyForms\elements\Dropdown;
+use Frago9876543210\EasyForms\elements\Input;
+use Frago9876543210\EasyForms\elements\Label;
 use Frago9876543210\EasyForms\forms\CustomForm;
 use Frago9876543210\EasyForms\forms\ModalForm;
 use pocketmine\command\CommandSender;
